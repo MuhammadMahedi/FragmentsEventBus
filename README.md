@@ -1,0 +1,1 @@
+Using EventBus we can make interection between multiple fragments. Using interface we had an issue of handling single action from multiple fragments. But using EventBus this issue can be solved. We can implement a single event in multiple fragments at the same time for a single action.
