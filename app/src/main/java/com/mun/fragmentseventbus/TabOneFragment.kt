@@ -21,7 +21,7 @@ class TabOneFragment : BaseFragment<FragmentTabOneBinding>(FragmentTabOneBinding
         binding.btnNextFragText.setOnClickListener{
             var text= binding.editText.text.toString()
 
-            EventBus.getDefault().post(TextChangeEvent(text))
+            //EventBus.getDefault().post(TextChangeEvent(text))
             binding.editText.setText("")
         }
     }

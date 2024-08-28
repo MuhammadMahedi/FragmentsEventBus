@@ -26,7 +26,7 @@ class TabTwoFragment : BaseFragment<FragmentTabTwoBinding>(FragmentTabTwoBinding
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onTextChangeEvent(event: TextChangeEvent) {
+    fun onTextChangeEvent(event: TabTextChangeEvent) {
         binding.tvFragmentTwo.text = event.message
     }
 
